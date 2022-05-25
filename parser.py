@@ -68,8 +68,8 @@ def save_content(tables, path):
     """
 
     Creation of a csv file and saving product information to a text file in accordance with the column headings.
-    :param tables: Name of csv file | str
-    :param path: path to define the location of the file, by default in the project directory | str
+    :param tables: list to add to file | list
+    :param path: Name of csv file | str
     :return: info text saved in file
     """
 
